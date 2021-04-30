@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body {
+  background-image: url("acrylic.jpg");
+  background-size: 1450px 700px;
+  }
+
+
+#reset-form {
+  padding: 20px;
+  width: 400px;
+  background: #d6fff5;
+  opacity: 0.9;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 100px auto;
+}
+#reset-form h1 {
+  margin: 0;
+  color: #9b9b8d;
+  text-align: center;
+  color: #ff4da6;
+  font-size: 24px;
+  font-family: "Lucida Handwriting", cursive;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+#reset-form label{
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font-family: "Lucida Console", monospace;
+}
+#reset-form input {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #c852ff;
+  color: #ffe6f0;
+  font-family: "Lucida Console", monospace;
+}
+#reset-form input { padding: 10px; }
+#reset-form input[type=submit] {
+  color: #fff;
+  border: 0;
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #ff6b90;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.2s;
+  font-family: "Lucida Console", monospace;
+}
